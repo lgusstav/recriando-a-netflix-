@@ -1,0 +1,41 @@
+:root{
+    --ver:#e50914;
+    --pre:#1a1a1a;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .container{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body{
+    background-color: var(--pre);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .logo{
+    margin-left: 35px;
+    color: var(--ver);
+    font-family:'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: white;
+}
+
