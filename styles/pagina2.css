@@ -1,0 +1,15 @@
+:root{
+    --ver:#e50914;
+    --pre:#1a1a1a;
+}
+
+
+body .titulo2{
+    text-align: center;
+    color: var(--ver);
+
+}
+
+body{
+    background-color: var(--pre);
+}
