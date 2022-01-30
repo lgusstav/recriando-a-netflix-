@@ -9,6 +9,10 @@
         width: 300px;
         
     }
+    header nav a{
+        margin-right: -2rem;
+    }
+
 }
 
 @media screen and (min-width:1000px) {
