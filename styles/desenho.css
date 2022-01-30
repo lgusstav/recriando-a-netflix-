@@ -11,8 +11,12 @@
 
 /*base*/
 
-header .container{
+header{
     border: 1px solid black;
+}
+
+header .container{
+
     display: flex;
     flex-direction: row;
     align-items: center;
